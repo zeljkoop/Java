@@ -1,6 +1,7 @@
 import java.util.*;
-public class Sekunden_Umrechnen {
-public static void main(String[] args)
+
+public class Main {
+    public static void main(String[] args)
     {
         String eingabe;
         eingabe = new java.util.Scanner(System.in).nextLine();
@@ -10,6 +11,5 @@ public static void main(String[] args)
         int sekunden = sekundenEingabe % 60;
 
         System.out.println(stunden + ":" + minuten + ":" + sekunden);
-
     }
- }
+}
